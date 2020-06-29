@@ -2,12 +2,134 @@
     width: 100%;
     height: 50px;
     background-color: darkslategrey;
+    float: left;
 
 }
+#menu{
+    width: 70px;
+    height: 40px;
+    background-color: rgb(25, 228, 109);
+    float: left;
+    padding-top: 5px;
+    margin-left: 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+#contact{
+    width: 70px;
+    height: 40px;
+    background-color: rgb(170, 130, 216);
+    float: left;
+    padding-top: 5px;
+    margin-left: 80px;
+    text-align: center;
+    border-radius: 5px;
+}
+#blog{
+    width: 70px;
+    height: 40px;
+    background-color: rgb(197, 136, 22);
+    float: left;
+    padding-top: 5px;
+    margin-left: 80px;
+    text-align: center;
+    border-radius: 5px;
+}
+#career{
+    width: 70px;
+    height: 40px;
+    background-color: rgb(230, 226, 243);
+    float: right;
+    padding-top: 5px;
+    margin-left: 80px;
+    text-align: center;
+    border-radius: 5px;
+}
+
 #body{
     width: 100%;
-    height: 80px;
-    background-color: rgb(216, 199, 212);
+    height: 500px;
+    background-color: rgb(223, 213, 220);
+}
+.mains{
+    width: 300px;
+    height: 40px;
+    float: left;
+    background-color: rgb(235, 135, 143);
+    text-align: center;
+    margin-left: 50px;
+    padding-top: 5px;
+    margin-top: 5px ;
+}
+.mains:hover{
+    background-color: slateblue;
+    width: 320px;
+    height: 50px;
+}
+
+#animbox1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(228, 20, 141);
+    margin-left: 100px;
+    margin-top: 300px;
+    text-align: center;
+    padding-top: 20px;
+    position: relative;
+    animation-name: example1;
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+    animation-delay: 1s;
+    animation-direction: alternate;
+}
+@keyframes example1{
+    0% {background-color: tomato; left: 0px; top: 0px;}
+    25% {background-color: violet; left: 200px; top: 0px;}
+    50% {background-color: yellow; left: 200px; top: 200px;}
+    75% {background-color: rgb(231, 24, 69); left: 0px; top: 200px;}
+    100% {background-color: royalblue; left: 0px; top: 0px;}
+}
+#animbox:hover{
+    width: 300px;
+    height: 300px;
+    background: royalblue;
+    transition: width 2s; height: 4s;
+}
+.anim{
+    color: rgb(88, 18, 219);
+    text-align: center;
+    padding: 20px;
+}
+#trans{
+    width: 100px;
+    height: 100px;
+    background-color: teal;
+    margin-left: 400px;
+    margin-top: 100px;
+    float: left;
+    text-align: center;
+    padding: 20px;
+}
+
+#animbox{
+    width: 100px;
+    height: 100px;
+    background-color: teal;
+    margin-left: 100px;
+    margin-top: 100px;
+    text-align: center;
+    padding-top: 20px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+}
+
+@keyframes example{
+    0% {background-color: tomato;}
+    25% {background-color: violet;}
+    50% {background-color: yellow;}
+    100% {background-color: royalblue;}
 }
 #footer{
     width: 100%;
